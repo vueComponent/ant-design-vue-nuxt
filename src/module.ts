@@ -2,6 +2,7 @@ import { defineNuxtModule, createResolver } from '@nuxt/kit'
 import { libraryName,defaults } from "./config"
 import { resolveComponents,resolveImports } from "./core"
 import { Options } from './types'
+import { resolveOptions } from './core/options'
 
 export default defineNuxtModule<Partial<Options>>({
   meta: {
@@ -12,6 +13,8 @@ export default defineNuxtModule<Partial<Options>>({
   defaults,
   setup (_options, nuxt) {
     const options = _options as Options;
+
+    resolveOptions()
     nuxt.options.imports.autoImport !== false && resolveImports(options)
     nuxt.options.components !== false && resolveComponents(options)
 
