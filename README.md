@@ -33,21 +33,21 @@ My new Nuxt module for doing amazing things.
 
 ```bash
 # Using pnpm
-pnpm add -D my-module
+pnpm add -D @ant-design-vue/nuxt
 
 # Using yarn
-yarn add --dev my-module
+yarn add --dev @ant-design-vue/nuxt
 
 # Using npm
-npm install --save-dev my-module
+npm install --save-dev @ant-design-vue/nuxt
 ```
 
-2. Add `my-module` to the `modules` section of `nuxt.config.ts`
+2. Add `@ant-design-vue/nuxt` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
   modules: [
-    'my-module'
+    '@ant-design-vue/nuxt'
   ]
 })
 ```
