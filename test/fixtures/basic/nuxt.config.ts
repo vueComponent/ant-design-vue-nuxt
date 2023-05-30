@@ -1,7 +1,7 @@
-import MyModule from '../../../src/module'
+import antd from '../../../src/module'
 
 export default defineNuxtConfig({
   modules: [
-    MyModule
+    antd as any
   ]
 })

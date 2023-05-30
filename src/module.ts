@@ -1,20 +1,23 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
-import { libraryName } from "./config"
+import { defineNuxtModule, createResolver } from '@nuxt/kit'
+import { libraryName,defaults } from "./config"
+import { resolveComponents,resolveImports } from "./core"
+import { Options } from './types'
 
-// Module options TypeScript interface definition
-export interface ModuleOptions {}
-
-export default defineNuxtModule<ModuleOptions>({
+export default defineNuxtModule<Partial<Options>>({
   meta: {
     name: libraryName,
     configKey: 'antd'
   },
   // Default configuration options of the Nuxt module
-  defaults: {},
-  setup (options, nuxt) {
-    const resolver = createResolver(import.meta.url)
+  defaults,
+  setup (_options, nuxt) {
+    const options = _options as Options;
+    nuxt.options.imports.autoImport !== false && resolveImports(options)
+    nuxt.options.components !== false && resolveComponents(options)
 
+
+    // const resolver = createResolver(import.meta.url)
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
-    addPlugin(resolver.resolve('./runtime/plugin'))
+    // addPlugin(resolver.resolve('./runtime/plugin'))
   }
 })
