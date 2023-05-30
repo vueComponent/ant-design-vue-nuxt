@@ -11,22 +11,7 @@ export const allIcons = Object.keys(AllIcons).filter(v=>/.*(Outlined|Filled|TwoT
 
 export { allComponents } from "./antdv"
 
-const defaultInclude: RegExp[] = [
-  /\.vue$/,
-  /\.vue\?vue/,
-  /\.vue\?v=/,
-  /\.((c|m)?j|t)sx?$/
-]
-
-const defaultExclude: RegExp[] = [
-  /[\\/]node_modules[\\/]/,
-  /[\\/]\.git[\\/]/,
-  /[\\/]\.nuxt[\\/]/
-]
-
 export const defaults:Options = {
-  include: defaultInclude,
-  exclude: defaultExclude,
   components: allComponents,
   icons: allIcons,
   imports: allImports

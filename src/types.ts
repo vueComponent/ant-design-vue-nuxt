@@ -1,14 +1,8 @@
-export type PresetImport = string | [name: string, as?: string, from?: string]
+export type PresetImport = string 
 
 
-/** Used to filter files that need to automatically import styles and other functions */
-export interface TransformOptions {
-  include: RegExp[]
-  exclude: RegExp[]
-}
-
-export interface Options extends TransformOptions {
-  icons: false | string[]
-  components: false | string[]
-  imports: string[]
+export interface Options {
+  icons: false | PresetImport[]
+  components: false | PresetImport[]
+  imports: PresetImport[]
 }
