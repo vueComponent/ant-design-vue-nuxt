@@ -1,7 +1,7 @@
 {
   "name": "@ant-design-vue/nuxt",
   "version": "1.0.0",
-  "description": "ant-design-vue-nuxt  module",
+  "description": "ant-design-vue-nuxt module",
   "repository": "vueComponent/ant-design-vue-nuxt",
   "license": "MIT",
   "type": "module",
