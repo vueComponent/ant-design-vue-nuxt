@@ -1,4 +1,4 @@
-import { defineNuxtModule, createResolver } from '@nuxt/kit'
+import { defineNuxtModule } from '@nuxt/kit'
 import { libraryName,defaults } from "./config"
 import { resolveComponents,resolveImports } from "./core"
 import { Options } from './types'
