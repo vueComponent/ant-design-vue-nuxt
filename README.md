@@ -14,7 +14,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
+[Ant Design Vue](https://www.antdv.com) module for [Nuxt](https://nuxt.com/)
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
@@ -23,13 +23,13 @@ My new Nuxt module for doing amazing things.
 ## Features
 
 <!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- ⛰ &nbsp;Automatically import components on demand.
+- 🚠 &nbsp;Automatically import icons from [@ant-design/icons-vue](https://github.com/ant-design/ant-design-icons/tree/master/packages/icons-vue).
+- 🌲 &nbsp;Automatically import of message, notification and Modal methods.
 
 ## Quick Setup
 
-1. Add `my-module` dependency to your project
+1. Add `@ant-design-vue/nuxt` dependency to your project
 
 ```bash
 # Using pnpm
@@ -48,11 +48,54 @@ npm install --save-dev @ant-design-vue/nuxt
 export default defineNuxtConfig({
   modules: [
     '@ant-design-vue/nuxt'
-  ]
+  ],
+  antd:{
+    // Options
+  }
 })
 ```
 
-That's it! You can now use My Module in your Nuxt app ✨
+That's it! You can now use ant-design-vue in your Nuxt app ✨
+
+
+## Usage
+
+```vue
+<script lang="ts" setup>
+const hanldeMessage = () => {
+  message.info("This is a normal message");
+}
+</script>
+<template>
+  <a-button @click="hanldeMessage">
+    button
+  </a-button>
+</template>
+```
+Reference [Nuxt documentation](https://nuxt.com/docs/guide/directory-structure/components) and [playground](./playground/app.vue) use.
+
+## Options
+
+### components
+
+* Type: `array`
+
+If there are components that are not imported automatically from Ant Design Vue, you need to add the component name here.
+
+e.g.`['Button']`
+
+### imports
+
+* Type: `array`
+
+If you wish to add automatically import content from Element Plus, you can add it here.
+
+### icons
+
+* Type: `array`
+
+If there are components that are not imported automatically from @ant-design/icons-vue, you need to add the component name here.
+
 
 ## Development
 
@@ -68,6 +111,9 @@ npm run dev
 
 # Build the playground
 npm run dev:build
+
+# Build for production
+npm run build
 
 # Run ESLint
 npm run lint
