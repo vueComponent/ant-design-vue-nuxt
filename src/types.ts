@@ -6,3 +6,10 @@ export interface Options {
   components: false | PresetImport[]
   imports: PresetImport[]
 }
+
+
+declare module "@nuxt/schema" {
+  interface NuxtOptions {
+    antd?: Partial<Options>
+  }
+}
