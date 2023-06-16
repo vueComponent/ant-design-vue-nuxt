@@ -88,7 +88,7 @@ e.g.`['Button']`
 
 * Type: `array`
 
-If you wish to add automatically import content from Element Plus, you can add it here.
+If you wish to add automatically import content from Ant Design Vue, you can add it here.
 
 ### icons
 
