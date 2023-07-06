@@ -62,12 +62,12 @@ That's it! You can now use ant-design-vue in your Nuxt app ✨
 
 ```vue
 <script lang="ts" setup>
-const hanldeMessage = () => {
+const handleMessage = () => {
   message.info("This is a normal message");
 }
 </script>
 <template>
-  <a-button @click="hanldeMessage">
+  <a-button @click="handleMessage">
     button
   </a-button>
 </template>
