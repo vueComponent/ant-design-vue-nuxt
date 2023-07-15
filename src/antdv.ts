@@ -102,6 +102,7 @@ export const allComponents = [
   'Steps',
   'SubMenu',
   'Switch',
+  'StyleProvider',
   'TabPane',
   'Table',
   'TableColumn',
