@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.0.1
+
+[compare changes](https://undefined/undefined/compare/v1.1.0...v1.0.1)
+
+
+### 🏡 Chore
+
+  - Change version (a9b926f)
+
+### ❤️  Contributors
+
+- Aibayanyu <aibayanyu@qq.com>
+
 ## v1.0.0
 
 [compare changes](https://undefined/undefined/compare/v1.0.0-alpha.1...v1.0.0)
