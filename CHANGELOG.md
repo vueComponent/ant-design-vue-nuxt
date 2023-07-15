@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v1.1.0
+
+[compare changes](https://undefined/undefined/compare/v1.0.0-alpha.1...v1.1.0)
+
+
+### 🚀 Enhancements
+
+  - Support style-provider (2e7da59)
+
+### 🏡 Chore
+
+  - Change readme (f52e16b)
+  - Change readme (1032a1e)
+  - Add license close #5 (#5)
+  - Resolve conflict (796f01d)
+  - Change version (9cba212)
+
+### ❤️  Contributors
+
+- Aibayanyu <aibayanyu@qq.com>
+- Aibayanyu20 <aibayanyu@qq.com>
+
 ## v1.0.0-alpha.1
 
 
