@@ -60,6 +60,8 @@ That's it! You can now use ant-design-vue in your Nuxt app ✨
 
 ## Usage
 
+[Online Playground](https://stackblitz.com/~/github.com/antdv-pro/antdv-nuxt-starter)
+
 ```vue
 <script lang="ts" setup>
 const handleMessage = () => {
