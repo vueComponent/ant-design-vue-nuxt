@@ -32,12 +32,10 @@
     "test": "vitest run",
     "test:watch": "vitest watch"
   },
-  "peerDependencies": {
-    "@ant-design/icons-vue": "^6.1.0",
-    "ant-design-vue": "4.0.0-rc.5"
-  },
   "dependencies": {
-    "@nuxt/kit": "^3.5.2"
+    "@nuxt/kit": "^3.5.2",
+    "@ant-design/icons-vue": "^6.1.0",
+    "ant-design-vue": "^4.0.0"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",

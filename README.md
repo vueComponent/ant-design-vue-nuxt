@@ -80,7 +80,7 @@ Reference [Nuxt documentation](https://nuxt.com/docs/guide/directory-structure/c
 
 ### components
 
-* Type: `array`
+* Type: `array` | 'false'
 
 If there are components that are not imported automatically from Ant Design Vue, you need to add the component name here.
 
@@ -94,7 +94,7 @@ If you wish to add automatically import content from Ant Design Vue, you can add
 
 ### icons
 
-* Type: `array`
+* Type: `array` | 'false'
 
 If there are components that are not imported automatically from @ant-design/icons-vue, you need to add the component name here.
 
