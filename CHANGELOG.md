@@ -10,10 +10,6 @@
 
   - Support style-provider (2e7da59)
 
-### 🩹 Fixes
-
-  - Change dependencies (02efbad)
-
 ### 🏡 Chore
 
   - Change readme (f52e16b)
@@ -23,11 +19,11 @@
   - Add online playground (703c8be)
   - Change (8016cc8)
 
+
 ### ❤️  Contributors
 
-- Aibayanyu20 <aibayanyu@qq.com>
-- Zev Zhu 
 - Aibayanyu <aibayanyu@qq.com>
+- Aibayanyu20 <aibayanyu@qq.com>
 
 ## v1.0.0-alpha.1
 
