@@ -1,4 +1,4 @@
-export type PresetImport = string 
+export type PresetImport = string | [string,string]
 
 
 export interface Options {

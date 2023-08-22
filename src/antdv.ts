@@ -1,4 +1,5 @@
-export const allComponents = [
+export const allComponents:(string | [string,string])[] = [
+  'App',
   'Affix',
   'Alert',
   'Anchor',
@@ -30,6 +31,7 @@ export const allComponents = [
   'CollapsePanel',
   'Comment',
   'ConfigProvider',
+  ['Compact','SpaceCompact'],
   'DatePicker',
   'Descriptions',
   'DescriptionsItem',
@@ -74,7 +76,7 @@ export const allComponents = [
   'Popconfirm',
   'Popover',
   'Progress',
-  'QRCode',
+  ['QRCode','Qrcode'],
   'QuarterPicker',
   'Radio',
   'RadioButton',
@@ -136,4 +138,4 @@ export const allComponents = [
 ]
 
 
-export const allImports = ['message','notification','Modal'];
+export const allImports = ['message','notification','Modal','App'];
