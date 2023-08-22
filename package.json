@@ -1,6 +1,6 @@
 {
   "name": "@ant-design-vue/nuxt",
-  "version": "1.2.0",
+  "version": "1.1.0",
   "description": "ant-design-vue-nuxt module",
   "repository": "vueComponent/ant-design-vue-nuxt",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "release": "npm run lint && npm run test && npm run prepack && changelogen --release && npm publish && git push --follow-tags",
     "build": "npm run lint && npm run test && npm run prepack",
-    "changelog": "changelogen --release --output CHANGELOG.md",
+    "changelog": "changelogen --release --pacth --output CHANGELOG.md",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch"
