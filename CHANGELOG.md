@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.1.2
+
+[compare changes](https://undefined/undefined/compare/v1.1.1...v1.1.2)
+
+
+### 🏡 Chore
+
+  - Update version (d45795f)
+
+### ❤️  Contributors
+
+- Aibayanyu <aibayanyu@qq.com>
+
 ## v1.1.1
 
 [compare changes](https://undefined/undefined/compare/v1.2.0...v1.1.1)
