@@ -1,7 +1,7 @@
 import { defineNuxtModule } from '@nuxt/kit'
 import { libraryName,defaults } from "./config"
 import { resolveComponents,resolveImports } from "./core"
-import { Options } from './types'
+import type { Options } from './types'
 import { resolveOptions } from './core/options'
 
 export default defineNuxtModule<Partial<Options>>({

@@ -1,4 +1,4 @@
-import { Options } from "../types";
+import type { Options } from "../types";
 import {  iconLibraryName, libraryName, prefix } from "../config"
 import { addComponent } from "@nuxt/kit";
 

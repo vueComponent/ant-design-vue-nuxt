@@ -1,5 +1,5 @@
 import * as AllIcons from "@ant-design/icons-vue";
-import { Options } from "./types";
+import type { Options } from "./types";
 import { allComponents , allImports} from "./antdv";
 
 export const libraryName = "ant-design-vue";
