@@ -42,6 +42,7 @@ export const allComponents:(string | [string,string])[] = [
   'DropdownButton',
   'Empty',
   'FloatButton',
+  'Flex',
   'FloatButtonGroup',
   'Form',
   'FormItem',
