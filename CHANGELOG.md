@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.2.0
+
+[compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.1.2...v1.2.0)
+
+### 🚀 Enhancements
+
+- Add flex component ([da86291](https://github.com/vueComponent/ant-design-vue-nuxt/commit/da86291))
+
+### ❤️ Contributors
+
+- Aibayanyu20 <aibayanyu@qq.com>
+
 ## v1.1.2
 
 [compare changes](https://undefined/undefined/compare/v1.1.1...v1.1.2)
