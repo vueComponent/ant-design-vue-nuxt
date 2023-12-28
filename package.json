@@ -34,8 +34,10 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
-    "@nuxt/kit": "^3.8.1",
-    "ant-design-vue": "^4.0.7"
+    "@nuxt/kit": "^3.8.1"
+  },
+  "peerDependencies": {
+    "ant-design-vue": ">=4"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
@@ -46,6 +48,8 @@
     "changelogen": "^0.5.5",
     "eslint": "^8.53.0",
     "nuxt": "^3.8.1",
-    "vitest": "^0.31.4"
+    "vitest": "^0.31.4",
+    "ant-design-vue": "^4.0.8",
+    "typescript": "5.1.6"
   }
 }
