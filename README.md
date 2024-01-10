@@ -69,9 +69,11 @@ const handleMessage = () => {
 }
 </script>
 <template>
-  <a-button @click="handleMessage">
-    button
-  </a-button>
+  <a-extract-style>
+     <a-button @click="handleMessage">
+      button
+    </a-button>
+  </a-extract-style>
 </template>
 ```
 Reference [Nuxt documentation](https://nuxt.com/docs/guide/directory-structure/components) and [playground](./playground/app.vue) use.
@@ -97,6 +99,22 @@ If you wish to add automatically import content from Ant Design Vue, you can add
 * Type: `array` | 'false'
 
 If there are components that are not imported automatically from @ant-design/icons-vue, you need to add the component name here.
+
+
+### extractStyle
+
+* Type: `boolean`
+
+Extract css on demand, start by default
+
+```vue
+<!-- If launched, we can wrap the component or page in the app.vue outermost layer -->
+<template>
+  <a-extract-style>
+    <!-- Your page or component -->
+  </a-extract-style>
+</template>
+```
 
 
 ## Development

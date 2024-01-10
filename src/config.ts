@@ -14,5 +14,6 @@ export { allComponents } from "./antdv"
 export const defaults:Options = {
   components: allComponents,
   icons: allIcons,
-  imports: allImports
+  imports: allImports,
+  extractStyle: true
 }
