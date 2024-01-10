@@ -99,6 +99,24 @@ If you wish to add automatically import content from Ant Design Vue, you can add
 If there are components that are not imported automatically from @ant-design/icons-vue, you need to add the component name here.
 
 
+### extractStyle
+
+* Type: `boolean`
+
+> Solve page css flicker problem
+
+Extracts and injects css on demand, defaults to false
+
+```vue
+<!-- If the extractStyle option is enabled, we can use a-extract-style on the outermost level of the template in app.vue -->
+<template>
+  <a-extract-style>
+    <!-- Your page or component -->
+  </a-extract-style>
+</template>
+```
+
+
 ## Development
 
 ```bash

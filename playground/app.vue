@@ -1,81 +1,83 @@
 <template>
-  <a-config-provider :theme="theme">
-    <div class="container">
-      <div>
+  <a-extract-style>
+    <a-config-provider :theme="theme">
+      <div class="container">
+        <div>
+          <a-space>
+            <a-button @click="changeTheme('dark')">
+              dark
+            </a-button>
+            <a-button @click="changeTheme('light')">
+              light
+            </a-button>
+          </a-space>
+        </div>
+        <a-alert
+          message="Success Text"
+          type="success"
+        />
+        <div>
+          icon:
+          <AlertFilled />
+          <LoadingOutlined />
+        </div>
+        <a-table v-bind="tableProps" />
         <a-space>
-          <a-button @click="changeTheme('dark')">
-            dark
+          <a-button
+            type="primary"
+            @click="handleMessage('success')"
+          >
+            message success 
           </a-button>
-          <a-button @click="changeTheme('light')">
-            light
+          <a-button @click="handleMessage('info')">
+            message info
           </a-button>
         </a-space>
-      </div>
-      <a-alert
-        message="Success Text"
-        type="success"
-      />
-      <div>
-        icon:
-        <AlertFilled />
-        <LoadingOutlined />
-      </div>
-      <a-table v-bind="tableProps" />
-      <a-space>
-        <a-button
-          type="primary"
-          @click="handleMessage('success')"
+        <a-space>
+          <a-button
+            type="primary"
+            @click="handleModal('success')"
+          >
+            modal success
+          </a-button>
+          <a-button @click="handleModal('info')">
+            modal info
+          </a-button>
+        </a-space>
+        <a-space>
+          <a-button
+            type="primary"
+            @click="handleNotification('success')"
+          >
+            notification success
+          </a-button>
+          <a-button @click="handleNotification('info')">
+            notification info
+          </a-button>
+        </a-space>
+        <a-flex
+          gap="middle"
+          vertical
         >
-          message success 
-        </a-button>
-        <a-button @click="handleMessage('info')">
-          message info
-        </a-button>
-      </a-space>
-      <a-space>
-        <a-button
-          type="primary"
-          @click="handleModal('success')"
-        >
-          modal success
-        </a-button>
-        <a-button @click="handleModal('info')">
-          modal info
-        </a-button>
-      </a-space>
-      <a-space>
-        <a-button
-          type="primary"
-          @click="handleNotification('success')"
-        >
-          notification success
-        </a-button>
-        <a-button @click="handleNotification('info')">
-          notification info
-        </a-button>
-      </a-space>
-      <a-flex
-        gap="middle"
-        vertical
-      >
-        <a-radio-group v-model:value="value">
-          <a-radio value="horizontal">
-            horizontal
-          </a-radio>
-          <a-radio value="vertical">
-            vertical
-          </a-radio>
-        </a-radio-group>
-        <a-flex :vertical="value === 'vertical'">
-          <div
-            v-for="(item, index) in new Array(4)"
-            :key="item"
-            :style="{ ...baseStyle, background: `${index % 2 ? '#1677ff' : '#1677ffbf'}` }"
-          />
+          <a-radio-group v-model:value="value">
+            <a-radio value="horizontal">
+              horizontal
+            </a-radio>
+            <a-radio value="vertical">
+              vertical
+            </a-radio>
+          </a-radio-group>
+          <a-flex :vertical="value === 'vertical'">
+            <div
+              v-for="(item, index) in new Array(4)"
+              :key="item"
+              :style="{ ...baseStyle, background: `${index % 2 ? '#1677ff' : '#1677ffbf'}` }"
+            />
+          </a-flex>
         </a-flex>
-      </a-flex>
-    </div>
-  </a-config-provider>
+      </div>
+    </a-config-provider>
+  </a-extract-style>
 </template>
 
 <script setup lang="ts">

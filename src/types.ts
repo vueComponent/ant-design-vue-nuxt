@@ -5,6 +5,7 @@ export interface Options {
   icons: false | PresetImport[]
   components: false | PresetImport[]
   imports: PresetImport[]
+  extractStyle: boolean
 }
 
 
