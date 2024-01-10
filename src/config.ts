@@ -15,5 +15,5 @@ export const defaults:Options = {
   components: allComponents,
   icons: allIcons,
   imports: allImports,
-  extractStyle: true
+  extractStyle: false
 }

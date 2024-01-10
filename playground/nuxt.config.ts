@@ -1,6 +1,8 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
-  antd: {},
+  antd: {
+    extractStyle: true
+  },
   imports:{
     autoImport:true
   },

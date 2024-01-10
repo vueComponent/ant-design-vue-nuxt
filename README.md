@@ -69,11 +69,9 @@ const handleMessage = () => {
 }
 </script>
 <template>
-  <a-extract-style>
-     <a-button @click="handleMessage">
-      button
-    </a-button>
-  </a-extract-style>
+  <a-button @click="handleMessage">
+    button
+  </a-button>
 </template>
 ```
 Reference [Nuxt documentation](https://nuxt.com/docs/guide/directory-structure/components) and [playground](./playground/app.vue) use.
@@ -105,10 +103,12 @@ If there are components that are not imported automatically from @ant-design/ico
 
 * Type: `boolean`
 
-Extract css on demand, start by default
+> Solve page css flicker problem
+
+Extracts and injects css on demand, defaults to false
 
 ```vue
-<!-- If launched, we can wrap the component or page in the app.vue outermost layer -->
+<!-- If the extractStyle option is enabled, we can use a-extract-style on the outermost level of the template in app.vue -->
 <template>
   <a-extract-style>
     <!-- Your page or component -->
