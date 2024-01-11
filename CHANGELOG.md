@@ -1,5 +1,34 @@
 # Changelog
 
+## v1.4.0
+
+[compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.1.2...v1.4.0)
+
+### 🚀 Enhancements
+
+- Add flex component ([da86291](https://github.com/vueComponent/ant-design-vue-nuxt/commit/da86291))
+- Add extractStyle ([7439e98](https://github.com/vueComponent/ant-design-vue-nuxt/commit/7439e98))
+
+### 🩹 Fixes
+
+- Fix typo ([aebf62e](https://github.com/vueComponent/ant-design-vue-nuxt/commit/aebf62e))
+
+### 🏡 Chore
+
+- **release:** V1.2.0 ([30d89ec](https://github.com/vueComponent/ant-design-vue-nuxt/commit/30d89ec))
+- Test bundler module resolution ([bc5c5cf](https://github.com/vueComponent/ant-design-vue-nuxt/commit/bc5c5cf))
+- **release:** V1.3.0 ([314ef40](https://github.com/vueComponent/ant-design-vue-nuxt/commit/314ef40))
+
+### 🤖 CI
+
+- Eslint format ([7c43723](https://github.com/vueComponent/ant-design-vue-nuxt/commit/7c43723))
+
+### ❤️ Contributors
+
+- Aibayanyu20 <aibayanyu@qq.com>
+- Markthree ([@markthree](http://github.com/markthree))
+- Daniel Roe <daniel@roe.dev>
+
 ## v1.3.0
 
 [compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.1.2...v1.3.0)
