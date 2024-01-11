@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import { createCache, extractStyle, StyleProvider } from "ant-design-vue"
-
+import { useNuxtApp, useHead } from "#imports";
 const cache = createCache()
 
 const app = useNuxtApp()
