@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     extractStyle: true
   },
   imports:{
-    autoImport:true
+    autoImport: true
   },
   vite:{
     resolve:{
