@@ -99,7 +99,7 @@ If you wish to add automatically import content from Ant Design Vue, you can add
 If there are components that are not imported automatically from @ant-design/icons-vue, you need to add the component name here.
 
 
-### extractStyle
+### extractStyle (1.4.1)
 
 * Type: `boolean`
 
