@@ -32,13 +32,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 1. Add `@ant-design-vue/nuxt` dependency to your project
 
 ```bash
-# Using pnpm
 npx nuxi@latest module add ant-design-vue
-
-# Using yarn
-npx nuxi@latest module add ant-design-vue
-
-# Using npm
 npx nuxi@latest module add ant-design-vue
 ```
 
