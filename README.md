@@ -33,7 +33,6 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 ```bash
 npx nuxi@latest module add ant-design-vue
-npx nuxi@latest module add ant-design-vue
 ```
 
 2. Add `@ant-design-vue/nuxt` to the `modules` section of `nuxt.config.ts`
