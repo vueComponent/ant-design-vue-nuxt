@@ -1,5 +1,28 @@
 # Changelog
 
+## v1.4.2
+
+[compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.4.1...v1.4.2)
+
+### 🩹 Fixes
+
+- Fix dayjs esm package ([da879fc](https://github.com/vueComponent/ant-design-vue-nuxt/commit/da879fc))
+
+### 📖 Documentation
+
+- Use new `nuxi module add` command in installation ([1f7b6eb](https://github.com/vueComponent/ant-design-vue-nuxt/commit/1f7b6eb))
+
+### 🏡 Chore
+
+- Remove duplicates ([9d21695](https://github.com/vueComponent/ant-design-vue-nuxt/commit/9d21695))
+- Another duplicate ([13f8746](https://github.com/vueComponent/ant-design-vue-nuxt/commit/13f8746))
+- Change version ([23376ed](https://github.com/vueComponent/ant-design-vue-nuxt/commit/23376ed))
+
+### ❤️ Contributors
+
+- Aibayanyu20 <aibayanyu@qq.com>
+- Daniel Roe ([@danielroe](http://github.com/danielroe))
+
 ## v1.4.0
 
 [compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.1.2...v1.4.0)
