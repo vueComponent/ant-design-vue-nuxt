@@ -2,6 +2,11 @@
   <a-extract-style>
     <a-config-provider :theme="theme">
       <div class="container">
+
+        <a-date-picker />
+        <a-date-picker picker="week"/>
+        <a-range-picker />
+        <a-range-picker picker="week"/>
         <div>
           <a-space>
             <a-button @click="changeTheme('dark')">
