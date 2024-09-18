@@ -32,7 +32,7 @@
             type="primary"
             @click="handleMessage('success')"
           >
-            message success 
+            message success
           </a-button>
           <a-button @click="handleMessage('info')">
             message info
@@ -88,10 +88,10 @@
 <script setup lang="ts">
 import { theme as antdTheme } from "ant-design-vue"
 import { reactive, ref} from "#imports";
+import type { CSSProperties } from 'vue';
 const theme = reactive({
   algorithm: antdTheme.defaultAlgorithm
 })
-import type { CSSProperties } from 'vue';
 const value = ref('horizontal');
 const baseStyle: CSSProperties = {
   width: '25%',

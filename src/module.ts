@@ -15,7 +15,9 @@ export default defineNuxtModule<Partial<Options>>({
     const options = _options as Options;
 
     resolveOptions()
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     nuxt.options.imports.autoImport !== false && resolveImports(options)
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     nuxt.options.components !== false && resolveComponents(options)
 
     if (options.extractStyle) {
