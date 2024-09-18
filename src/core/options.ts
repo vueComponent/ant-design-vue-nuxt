@@ -20,7 +20,7 @@ export function resolveOptions () {
                 replacement: 'ant-design-vue/es',
               },
               {
-                find: /^dayjs\/plugin\/(.*)\.js$/,
+                find: /^dayjs\/plugin\/(.*)$/,
                 replacement: 'dayjs/esm/plugin/$1',
               },
               {
