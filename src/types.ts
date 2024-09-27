@@ -10,7 +10,12 @@ export interface Options {
 
 
 declare module "@nuxt/schema" {
-  interface NuxtOptions {
+  interface NuxtConfig {
     antd?: Partial<Options>
   }
+  interface NuxtOptions {
+    //@ts-expect-error this is a config
+    antd?: Partial<Options>
+  }
+
 }
