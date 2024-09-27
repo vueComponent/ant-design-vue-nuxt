@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.4.4
+
+[compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.4.3...v1.4.4)
+
+### 🏡 Chore
+
+- Test info ([88a850d](https://github.com/vueComponent/ant-design-vue-nuxt/commit/88a850d))
+
+### ❤️ Contributors
+
+- Aibayanyu20 <aibayanyu@qq.com>
+
 ## v1.4.3
 
 [compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.4.2...v1.4.3)
