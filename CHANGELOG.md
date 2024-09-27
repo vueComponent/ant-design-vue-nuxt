@@ -1,5 +1,24 @@
 # Changelog
 
+## v1.4.3
+
+[compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.4.2...v1.4.3)
+
+### 🩹 Fixes
+
+- Dayjs resolver ([9e1895d](https://github.com/vueComponent/ant-design-vue-nuxt/commit/9e1895d))
+- Fix typo ([3b5ede9](https://github.com/vueComponent/ant-design-vue-nuxt/commit/3b5ede9))
+
+### 🏡 Chore
+
+- Update dependencies ([e48f0ca](https://github.com/vueComponent/ant-design-vue-nuxt/commit/e48f0ca))
+- Update deps ([5112cee](https://github.com/vueComponent/ant-design-vue-nuxt/commit/5112cee))
+
+### ❤️ Contributors
+
+- Aibayanyu20 <aibayanyu@qq.com>
+- Svifty7 <svifty7@gmail.com>
+
 ## v1.4.2
 
 [compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.4.1...v1.4.2)
