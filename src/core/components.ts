@@ -20,9 +20,11 @@ export const resolveComponents = (config:Options) =>{
       })
     }
   })
+  if (icons === false){
+    return
+  }
 
-  const allIcons = icons === false ? [] : icons;
-  allIcons.forEach(icon=>{
+  icons.forEach(icon=>{
     if (typeof  icon === 'string'){
       addComponent({
         export: icon,
