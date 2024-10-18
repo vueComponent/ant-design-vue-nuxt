@@ -15,10 +15,13 @@ export default defineNuxtModule<Partial<Options>>({
     const options = _options as Options;
 
     resolveOptions()
+
+    const antdRuntimePath = createResolver(import.meta.url).resolve('./runtime/antd')
+
     // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-    nuxt.options.imports.autoImport !== false && resolveImports(options)
+    nuxt.options.imports.autoImport !== false && resolveImports(options, antdRuntimePath)
     // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-    nuxt.options.components !== false && resolveComponents(options)
+    nuxt.options.components !== false && resolveComponents(options, antdRuntimePath)
 
     if (options.extractStyle) {
       extractStyle()
