@@ -1,5 +1,22 @@
 # Changelog
 
+## v1.4.5
+
+[compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.4.4...v1.4.5)
+
+### 🩹 Fixes
+
+- 修复本地开发将所有组件拆包方式加载 ([66b2d7a](https://github.com/vueComponent/ant-design-vue-nuxt/commit/66b2d7a))
+
+### 🏡 Chore
+
+- Change ts version ([1ffc2b7](https://github.com/vueComponent/ant-design-vue-nuxt/commit/1ffc2b7))
+
+### ❤️ Contributors
+
+- Xuanhen2013 <1072671832@qq.com>
+- Aibayanyu20 <aibayanyu@qq.com>
+
 ## v1.4.4
 
 [compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.4.3...v1.4.4)
