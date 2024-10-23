@@ -16,8 +16,12 @@ export function resolveOptions () {
           resolve:{
             alias:[
               {
-                find: /^(ant-design-vue)(?!\/(es|dist))/,
+                find: /^(ant-design-vue)(?!\/(es|lib))/,
                 replacement: 'ant-design-vue/es',
+              },
+              {
+                find: /^@ant-design\/icons-vue$/,
+                replacement: '@ant-design/icons-vue',
               },
               {
                 find: /^dayjs\/plugin\/(.*)$/,
