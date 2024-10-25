@@ -15,8 +15,16 @@ export function resolveOptions () {
         return {
           resolve:{
             alias:[
+               {
+                find: /^(ant-design-vue)(?!\/(es|dist))/,
+                replacement: 'ant-design-vue/es',
+              },
               {
-                find: /^(ant-design-vue)(?!\/(es|lib))/,
+                find: /^ant-design-vue\/dist$/,
+                replacement: 'ant-design-vue/dist',
+              },
+              {
+                find: /^ant-design-vue\/es$/,
                 replacement: 'ant-design-vue/es',
               },
               {
