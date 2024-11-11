@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.4.6
+
+[compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.4.5...v1.4.6)
+
+### 🩹 Fixes
+
+- 声明 antdv 的路径 ([5c643db](https://github.com/vueComponent/ant-design-vue-nuxt/commit/5c643db))
+
+### ❤️ Contributors
+
+- Xuanhen2013 <1072671832@qq.com>
+
 ## v1.4.5
 
 [compare changes](https://github.com/vueComponent/ant-design-vue-nuxt/compare/v1.4.4...v1.4.5)
